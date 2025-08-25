@@ -1,0 +1,21 @@
+<meta>
+    <script src="cars.lua" type="client"/>
+    <script src="cars_s.lua" type="server"/>
+    <script src="carskin.lua" type="client"/>
+    <file src="skins/range.dff"/>
+    <file src="skins/range.txd"/>
+    <file src="skins/gclass.dff"/>
+    <file src="skins/gclass.txd"/>
+    <file src="skins/adm.dff"/>
+    <file src="skins/adm.txd"/>
+    <file src="skins/dacia.dff"/>
+    <file src="skins/dacia.txd"/>
+    <file src="skins/panamera.dff"/>
+    <file src="skins/panamera.txd"/>
+    <file src="skins/peug.dff"/>
+    <file src="skins/peug.txd"/>
+    <file src="skins/mini.dff"/>
+    <file src="skins/mini.txd"/>
+    <file src="skins/mdr.dff"/>
+    <file src="skins/mdr.txd"/>
+</meta>

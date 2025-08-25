@@ -1,16 +1,16 @@
 math.randomseed(getTickCount() or os.time())
 local RESPAWN_MS = 15 * 60 * 1000
 local showroomDefs = {
-    { model=445, vx=562.7841796875, vy=-1287.4521484375, vz=17.248237609863, px=562.7978515625, py=-1283.486328125, pz=17.248237609863, info={name="Sultan", modelName="Sultan", year=2007, price=12000} },
-    { model=400, vx=555.9833984375, vy=-1287.8818359375, vz=17.248237609863, px=555.9541015625, py=-1283.6298828125, pz=17.248237609863, info={name="Golf", modelName="Golf tiguan R line", year=2021, price=25000} },
-    { model=507, vx=549.5126953125, vy=-1287.9306640625, vz=17.248237609863, px=549.7421875, py=-1283.7060546875, pz=17.248237609863, info={name="Banshee", modelName="Banshee", year=2006, price=22000} },
-    { model=579, vx=542.1728515625, vy=-1288.439453125, vz=17.2421875, px=542.126953125, py=-1284.02734375, pz=17.2421875, info={name="Buffalo", modelName="Buffalo", year=2008, price=18000} },
-    { model=410, vx=535.8935546875, vy=-1288.005859375, vz=17.2421875, px=535.89453125, py=-1284.080078125, pz=17.2421875, info={name="Cheetah", modelName="Cheetah", year=2009, price=30000} },
-    { model=527, vx=528.4375, vy=-1288.9560546875, vz=17.2421875, px=528.5693359375, py=-1284.3017578125, pz=17.2421875, info={name="Comet", modelName="Comet", year=2010, price=20000} },
-    { model=421, vx=559.3154296875, vy=-1277.3125, vz=17.2421875, px=539.2861328125, py=-1273.7451171875, pz=17.2421875, info={name="Tahoma", modelName="Tahoma", year=2004, price=9000} },
-    { model=445, vx=553.1513671875, vy=-1277.6630859375, vz=17.248237609863, px=546.337890625, py=-1273.1435546875, pz=17.248237609863, info={name="Sultan (2)", modelName="Sultan", year=2007, price=12500} },
-    { model=527, vx=546.412109375, vy=-1277.46484375, vz=17.248237609863, px=552.9560546875, py=-1273.23046875, pz=17.2421875, info={name="Comet (2)", modelName="Comet", year=2011, price=21000} },
-    { model=400, vx=539.3623046875, vy=-1277.9990234375, vz=17.2421875, px=559.34375, py=-1272.900390625, pz=17.2421875, info={name="Infernus (2)", modelName="Infernus", year=2006, price=25500} },
+    { model=445, vx=562.7841796875, vy=-1287.4521484375, vz=17.248237609863, px=562.7978515625, py=-1283.486328125, pz=17.248237609863, info={name="Mercedes Benz cla", modelName="Admiral", year=2014, price=400000} },
+    { model=400, vx=555.9833984375, vy=-1287.8818359375, vz=17.248237609863, px=555.9541015625, py=-1283.6298828125, pz=17.248237609863, info={name="Mercedes Benz glcass", modelName="Landstalker", year=2020, price=3000000} },
+    { model=507, vx=549.5126953125, vy=-1287.9306640625, vz=17.248237609863, px=549.7421875, py=-1283.7060546875, pz=17.248237609863, info={name="Dacia Logan", modelName="Elegant", year=2008, price=300000} },
+    { model=579, vx=542.1728515625, vy=-1288.439453125, vz=17.2421875, px=542.126953125, py=-1284.02734375, pz=17.2421875, info={name="Range Rover SVR", modelName="Huntley", year=2017, price=1500000} },
+    { model=410, vx=535.8935546875, vy=-1288.005859375, vz=17.2421875, px=535.89453125, py=-1284.080078125, pz=17.2421875, info={name="Peugeot 205", modelName="Manana", year=1995, price=150000} },
+    { model=527, vx=528.4375, vy=-1288.9560546875, vz=17.2421875, px=528.5693359375, py=-1284.3017578125, pz=17.2421875, info={name="Mini Cooper", modelName="Cadrona", year=2013, price=1200000} },
+    { model=421, vx=559.3154296875, vy=-1277.3125, vz=17.2421875, px=539.2861328125, py=-1273.7451171875, pz=17.2421875, info={name="Porsche Panamera", modelName="Washington", year=2016, price=2000000} },
+    { model=445, vx=553.1513671875, vy=-1277.6630859375, vz=17.248237609863, px=546.337890625, py=-1273.1435546875, pz=17.248237609863, info={name="Mercedes Benz cla", modelName="Admiral", year=2014, price=400000} },
+    { model=527, vx=546.412109375, vy=-1277.46484375, vz=17.248237609863, px=552.9560546875, py=-1273.23046875, pz=17.2421875, info={name="Mini Cooper", modelName="Cadrona", year=2013, price=1200000} },
+    { model=400, vx=539.3623046875, vy=-1277.9990234375, vz=17.2421875, px=559.34375, py=-1272.900390625, pz=17.2421875, info={name="Mercedes Benz glcass", modelName="Landstalker", year=2020, price=3000000} },
 }
 local BUY_SPAWN = { x = 521.388671875, y = -1288.3642578125, z = 17.2421875, rz = 308.40466308594 }
 local vendor = { x=521.5908203125, y=-1292.2333984375, z=17.2421875, rot=5.814605712890 }

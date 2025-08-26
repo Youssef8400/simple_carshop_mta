@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/7234a0fb-1926-4374-8b6a-468b62e7b006
 
 ##  Fonctionnement Global
 
-| **Étape** | **Côté Client (GUI)** | **Côté Serveur (Logiciel)** |
+| **Étape** | **Côté Client (GUI)** | **Côté Serveur ** |
 |-----------|------------------------|-----------------------------|
 | 1 | Le joueur approche le vendeur et ouvre la boutique. | Le serveur envoie la liste des véhicules disponibles (`carshop:syncShowroom`). |
 | 2 | Le joueur sélectionne une voiture et consulte les infos ou lance la prévisualisation. | Vérification que le véhicule est disponible. |
